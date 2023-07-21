@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home page</h1>
+    <h3>Register yourself</h3>
+    <form action="/user" method="post">
+        <label for="username">username</label>
+        <input type="text" name="user[username]" id="username">
+        <label for="username">password</label>
+        <input type="password" name="user[password]" id="password">
+        <button type="submit">Register</button>
+    </form>
+    <a href="/login">Login</a>
+    <a href="/secret">Secret</a>
+</body>
+</html>
